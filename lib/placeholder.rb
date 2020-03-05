@@ -1,6 +1,8 @@
-class Placeholder
+# frozen_string_literal: true
 
-    def holds_place(a)
-        false
-    end
+# Placeholder class
+class Placeholder
+  def holds_place(_)
+    false
+  end
 end

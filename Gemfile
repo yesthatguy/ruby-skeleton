@@ -1,9 +1,11 @@
-source "http://rubygems.org"
+# frozen_string_literal: true
 
-gem "rake"
+source 'http://rubygems.org'
+
+gem 'rake'
 
 group :development do
-  gem 'rubocop'  # linting
+  gem 'rubocop' # linting
 end
 
 group :test do
