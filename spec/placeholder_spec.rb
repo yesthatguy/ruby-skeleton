@@ -3,8 +3,8 @@
 require 'placeholder'
 
 RSpec.describe Placeholder do
-  it 'holds a place' do
-    placeholder = Placeholder.new
-    expect(placeholder.holds_place('foo')).to be(false)
+  let(:placeholder) { Placeholder.new }
+  it 'does something' do
+    expect(placeholder.do_something('foo')).to be(true)
   end
 end

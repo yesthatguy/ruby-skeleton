@@ -2,7 +2,7 @@
 
 # Placeholder class
 class Placeholder
-  def holds_place(_)
-    false
+  def do_something(_)
+    true
   end
 end
