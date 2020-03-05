@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require 'placeholder'
+require_relative 'lib/placeholder'
 
 @placeholder = Placeholder.new
 
