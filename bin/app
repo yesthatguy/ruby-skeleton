@@ -2,7 +2,9 @@
 
 # frozen_string_literal: true
 
-require_relative 'lib/placeholder'
+$LOAD_PATH.unshift("#{__dir__}/../lib")
+
+require 'placeholder'
 
 @placeholder = Placeholder.new
 
